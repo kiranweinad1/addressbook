@@ -25,7 +25,7 @@ public class HelloControllerTest {
 	@Autowired
     private MockMvc mvc;
 
-	@Test
+	/*@Test
     public void testHello() throws Exception {
         mvc.perform(MockMvcRequestBuilders.get("/").accept(MediaType.APPLICATION_JSON))
                 .andExpect(status().isOk())
@@ -36,5 +36,5 @@ public class HelloControllerTest {
 		 mvc.perform(MockMvcRequestBuilders.get("/getName?name=sibi").accept(MediaType.APPLICATION_JSON))
          .andExpect(status().isOk())
          .andExpect(content().string(equalTo("Entered Name : sibi")));
-	}
+	}*/
 }
